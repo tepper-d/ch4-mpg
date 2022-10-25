@@ -1,0 +1,36 @@
+/*
+CIS 124: Introduction to JavaScript
+Murach JavaScript & jQuery, 4th ed
+Chapter 4: JavaScript objects, functions, and events
+Exercise 4-1 Enhance the MPG application
+Dominique Tepper, 24OCT2022
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #373F47;
+    margin: 0 auto;
+    width: 600px;
+    border: 10px solid #C3C9E9;
+    padding: 0 2em 1em;
+    color: #8B8982;
+}
+
+h1 {
+    color: #6C91C2;
+}
+
+h3 {
+    color: #6C91C2;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+	text-align: right;
+	margin-right: 0.5em;
+}

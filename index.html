@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+CIS 124: Introduction to JavaScript
+Murach JavaScript & jQuery, 4th ed
+Chapter 4: JavaScript objects, functions, and events
+Exercise 4-1 Enhance the MPG application
+Dominique Tepper, 24OCT2022
+-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miles Per Gallon Calculator</title>
+    <link rel="stylesheet" href="mpg.css">
+</head>
+<body>
+    <main>
+        <h1>The Miles Per Gallon Calculator</h1>
+        <div>
+            <label for="miles">Miles Driven:</label>
+            <input type="text" id="miles">
+        </div>
+        <div>
+            <label for="gallons">Gallons of Gas Used:</label>
+            <input type="text" id="gallons">
+        </div>
+        <div>
+            <label for="mpg">Miles Per Gallon:</label>
+            <input type="text" id="mpg" disabled>
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate MPG">
+
+            <!--
+                Step 7. Add the Clear Entries button with a unique id and an appropriate value attribute.
+                Tepper, 24OCT2022.
+            -->
+            <input type="button" id="clear" value="Clear Entries">
+        </div>
+    </main>
+    <script src="mpg.js"></script>
+</body>
+
+</html>
